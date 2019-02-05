@@ -74,7 +74,6 @@ def organize_schools(hash)
     output[city] = school_list
   end
 
-  end
   binding.pry
   output
 
