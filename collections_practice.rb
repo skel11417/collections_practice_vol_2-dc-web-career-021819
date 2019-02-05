@@ -56,9 +56,15 @@ end
 
 def organize_schools(hash)
   output = Hash.new
+  # create hash keys of cities
+  
+  cities = hash.values
+  cities.map {|x| x[:location]}
+  
+  
   hash.each do |k, v|
     location = v[:location]
-    output[location] = k
+
   end
   binding.pry
   output
