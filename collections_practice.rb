@@ -61,6 +61,7 @@ def organize_schools(hash)
   
   cities = hash.values
   cities.map {|x| cities_array << x[:location]}
+  cities_array!
   
   
   hash.each do |k, v|
