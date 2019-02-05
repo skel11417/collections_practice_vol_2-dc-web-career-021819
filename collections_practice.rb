@@ -65,6 +65,7 @@ def organize_schools(hash)
   
   
   cities_array.each do |city|
+    school_list = []
     
 
   end
