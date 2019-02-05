@@ -67,7 +67,12 @@ def organize_schools(hash)
   cities_array.each do |city|
     school_list = []
     hash.each do |k,v|
-      if k[]
+      if v[:location] == city
+        school_list << k
+      end
+    end
+    output[city] = school_list
+  end
 
   end
   binding.pry
