@@ -64,8 +64,8 @@ def organize_schools(hash)
   cities_array!
   
   
-  cities_array.each do |k, v|
-    location = v[:location]
+  cities_array.each do |city|
+    
 
   end
   binding.pry
