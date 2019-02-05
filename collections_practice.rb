@@ -56,6 +56,7 @@ end
 
 def organize_schools(hash)
   output = Hash.new
+  cities_array = Array.new
   # create hash keys of cities
   
   cities = hash.values
